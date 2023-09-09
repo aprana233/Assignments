@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.24)  6 SEP 2023 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.24)  9 SEP 2023 07:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**12.4.tex
-(./12.4.tex
+**12.10.tex
+(./12.10.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -291,6 +291,15 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
+(/usr/share/texlive/texmf-dist/tex/generic/alphalph/alphalph.sty
+Package: alphalph 2019/12/09 v2.6 Convert numbers to letters (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip58
@@ -351,10 +360,6 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
@@ -399,9 +404,6 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
@@ -977,39 +979,33 @@ ex
 2022/09/23 4.25c tkz-obj-eu-show.tex
 ) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
 2022/09/23 4.25c tkz-obj-eu-triangles.tex
-))
+)) (./gvv.sty
+\c@matchleft=\count327
+\c@matchright=\count328
+)
+\c@theorem=\count329
+\c@problem=\count330
+\c@proposition=\count331
+\c@lemma=\count332
+\c@example=\count333
+\c@rem=\count334
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
+4.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+(./12.10.aux)
+\openout1 = `12.10.aux'.
 
-! LaTeX Error: File `gvv.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: r
-
-! LaTeX Error: File `r.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.25 ^^M
-        
-End of file on the terminal!
-
- 
-Here is how much of TeX's memory you used:
- 28106 strings out of 476091
- 559331 string characters out of 5794081
- 1850330 words of memory out of 5000000
- 47950 multiletter control sequences out of 15000+600000
- 512287 words of font info for 32 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 101i,0n,96p,1172b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
-xsy on input line 
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 94.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
+94.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 94.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
@@ -1079,9 +1075,9 @@ Package gensymb Info: Using \textohm for \ohm on input line 94.
 Package gensymb Info: Using \textmu for \micro on input line 94.
 Package hyperref Info: Link coloring OFF on input line 94.
 
-(./12.4.out) (./12.4.out)
+(./12.10.out) (./12.10.out)
 \@outlinefile=\write4
-\openout4 = `12.4.out'.
+\openout4 = `12.10.out'.
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
 8.
@@ -1115,33 +1111,26 @@ File: ts1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 98.
+<figs/10.5.png, id=8, 636.3775pt x 550.055pt>
+File: figs/10.5.png Graphic file (type png)
+<use figs/10.5.png>
+Package pdftex.def Info: figs/10.5.png  used on input line 118.
+(pdftex.def)             Requested size: 345.0pt x 298.20032pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (32.25215pt too wide) in paragraph at lines 120--121
-[]\OT1/txr/m/n/10 Find mi-nors and co-fac-tors of the el-e-ments $\OML/txmi/m/i
-t/10 a[]; a[]$ \OT1/txr/m/n/10 in the de-ter-mi-nant $\OML/txmi/m/it/10 ^^N \OT
-1/txr/m/n/10 = []$. 
- []
-
-[2]
-Overfull \hbox (8.0088pt too wide) in paragraph at lines 133--134
-[]\OT1/txr/m/n/10 If $\OML/txmi/m/it/10 a; b; c$ \OT1/txr/m/n/10 are pos-i-tive
- and un-equal, show that value of the de-ter-mi-nant $^^A = []$
- []
-
-[3] [4] (./12.4.aux)
-Package rerunfilecheck Info: File `12.4.out' has not changed.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figs/10.5.png>] [3] 
+(./12.10.aux)
+Package rerunfilecheck Info: File `12.10.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29191 strings out of 476091
- 574268 string characters out of 5794081
- 1876330 words of memory out of 5000000
- 48903 multiletter control sequences out of 15000+600000
- 545310 words of font info for 115 fonts, out of 8000000 for 9000
+ 29256 strings out of 476091
+ 575597 string characters out of 5794081
+ 1906330 words of memory out of 5000000
+ 48963 multiletter control sequences out of 15000+600000
+ 544252 words of font info for 114 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,8n,96p,1172b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,96p,1173b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1149,10 +1138,10 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 12.4.pdf (4 pages, 56241 bytes).
+Output written on 12.10.pdf (3 pages, 72974 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
- 48 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 47 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
